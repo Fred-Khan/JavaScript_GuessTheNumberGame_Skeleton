@@ -1,0 +1,42 @@
+<!-- This line declares the document type and version of HTML being used (HTML5) -->
+<!DOCTYPE html>
+
+<!-- The opening tag for the HTML document with the language attribute set to "en" for English -->
+<html lang="en">
+
+    <!-- The head section of the HTML document, which contains metadata about the document -->
+    <head>
+        <!-- Character set for the document, specifying that it uses UTF-8 encoding -->
+        <meta charset="UTF-8">
+
+        <!-- The viewport meta tag helps to control the layout on different devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- The title of the web page that appears in the browser tab -->
+        <title>Guess the Number Game</title>
+
+        <!-- Linking an external CSS file named "styles.css" to style the web page -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <!-- The body section of the HTML document, containing the visible content of the page -->
+    <body>
+        <!-- The main heading of the web page -->
+        <h1>Guess the Number Game</h1>
+
+        <!-- A paragraph prompting the user to guess a number between 1 and 100 -->
+        <p>Guess a number between 1 and 100:</p>
+
+        <!-- An input field of type "number" where the user can enter their guess, with an id of "guessInput" for JavaScript interaction -->
+        <input type="number" id="guessInput">
+
+        <!-- A button with the id "submitBtn" that the user clicks to submit their guess -->
+        <button id="submitBtn">Submit Guess</button>
+
+        <!-- A paragraph with an id of "message" where messages related to the game will be displayed -->
+        <p id="message"></p>
+
+        <!-- Linking an external JavaScript file named "script.js" to add interactive functionality to the web page -->
+        <script src="script.js"></script>
+    </body>
+</html>
